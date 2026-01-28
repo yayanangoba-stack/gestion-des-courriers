@@ -1,8 +1,8 @@
 <?php
 $server="localhost";
-$username="root";
-$password="";
-$db="gestioncourrier";
+$username="amaderr";
+$password="SalleInformatique!";
+$db="amader-app";
 $conn = new mysqli($server,$username,$password,$db);
 
 if($conn->connect_error)
